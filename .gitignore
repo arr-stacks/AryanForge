@@ -1,0 +1,42 @@
+# Local machine configuration
+local.properties
+
+# Gradle and Kotlin caches
+.gradle/
+.kotlin/
+
+# Build outputs
+build/
+app/build/
+termux-android-build/
+
+# Local secrets and signing keys
+*.jks
+*.keystore
+keystore.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Local backups and patch scripts
+AndroidManifest-backup.xml
+AndroidManifest-before-AryanForge.xml
+MainActivity-backup.kt
+MainActivity-before-AryanForge.kt
+build-before-AryanForge.gradle.kts
+folderforge_remove_pack_patch.py
+folderforge_upgrade_patch.py
+patch_folderforge.py
+safety-snapshot/
+shizuku-api.jar
+README-HINGLISH.txt
+README.txt
+
+# Historical source backups inside app/src
+*.backup
+*.before-*
+*.pre-*
