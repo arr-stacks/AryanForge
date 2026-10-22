@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "maintenance": {
     "ff_normal": false,
-    "ff_max": false
+    "ff_max": true
   },
   "notes": "Set a maintenance flag to true to temporarily block that game's Apply Magic button. Resource ZIP updates are published as GitHub Releases with tags beginning resources- and assets named aryansmagic1.zip and/or aryansmagic2.zip. Mark resource releases as pre-releases so they do not replace the latest app release."
 }
